@@ -16,7 +16,11 @@ Ex: Professional-README-Generator-1
 
 ## Usage
 
-In order to use this application you can easily generate this README just by the command line with "node index.js", answer the questions, and your README will be automatically generated for you.
+In order to run this README, right click "index.js" on the left side and choose "Open in integrated terminal". Your terminal will open up and you're going to want to run "node index.js". Answer the questions prompted. Once completed you will see that your file has been created. 
+
+## Contribution
+
+N/A
 
 ## Credits
 
