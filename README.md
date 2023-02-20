@@ -18,7 +18,7 @@ Ex: Professional-README-Generator-1
 
 In order to run this README, right click "index.js" on the left side and choose "Open in integrated terminal". Your terminal will open up and you're going to want to run "node index.js". Answer the questions prompted. Once completed you will see that your file has been created. 
 
-![alt text](./walkthrough.webm)
+[walkthrough](https://drive.google.com/file/d/1q1Nn1KwjfzRG93fBjhucs9qKdbWA0A5Y/view)
 
 ## Contribution
 
