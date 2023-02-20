@@ -1,5 +1,5 @@
 
-  #  
+  # Title of Application
   
  ![badge](https://img.shields.io/badge/license-mit-blue)
 
@@ -13,15 +13,15 @@
   *[Questions](#questions)
 
   ## [Description]
-   
-   
-   
+  What problems will this application solve?
+  Reason why this application was created?
+  How to use this application?
 
   ## [Installation]
-   
+  Instruction
 
   ## [Usage]
-   
+  Examples for usage
 
   
     ## [License]
@@ -33,9 +33,9 @@
     N/A
 
   ## [Tests]
-    
+  instructions on how to test
 
   ## [Questions]
-  [GitHub](https://github.com/ )
-  [Email:  ](mailto: )
+  [GitHub](https://github.com/saraschroeder)
+  [Email: sara.schroeder00@gmail.com](mailto:sara.schroeder00@gmail.com)
 
