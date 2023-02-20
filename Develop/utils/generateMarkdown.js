@@ -13,7 +13,7 @@ function renderContributingSection(confirmContributers, data) {
 function renderLicenseBadge(license) {
   if(license !== 'no license'){
     return `
-    ![badge](https://img.shields.io/badge/license-${license}-blue)`;
+ ![badge](https://img.shields.io/badge/license-${license}-blue)`;
   } else {
     return ' ';
   }
@@ -24,7 +24,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'no license'){
     return `
-    [${license}](https://choosealicense.com/licenses/${license})`;
+  [${license}](https://choosealicense.com/licenses/${license})`;
   } else {
     return ' ';
   }
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   *[Description](#description)
   *[Installation](#installation)
   *[Usage](#usage)
-  ${renderLicenseTOC(data.license)}
+  *[License](#license)
   *[Contributing](#contributing)
   *[Tests](#tests)
   *[Questions](#questions)
@@ -68,8 +68,10 @@ function generateMarkdown(data) {
   ${data.what}
   ${data.why}
   ${data.how}
+
   ## [Installation]
   ${data.installation}
+
   ## [Usage]
   ${data.usage}
 
