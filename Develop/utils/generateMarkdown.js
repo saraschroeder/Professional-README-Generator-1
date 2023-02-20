@@ -1,7 +1,7 @@
 function renderContributingSection(confirmContributers, data) {
   if (!confirmContributers) {
     return `
-    Input Contribution Here.`;
+    N/A`;
   } else {
     return`
     ${data}`;
@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'no license'){
     return `
-    ## [License](#table-of-contents)
+    ## [License]
     ${renderLicenseLink(license)}`;
   } else {
     return ' ';
@@ -64,24 +64,24 @@ function generateMarkdown(data) {
   *[Tests](#tests)
   *[Questions](#questions)
 
-  ## [Description](#table-of-contents)
+  ## [Description]
   ${data.what}
   ${data.why}
   ${data.how}
-  ## [Installation](#table-of-contents)
+  ## [Installation]
   ${data.installation}
-  ## [Usage](#table-of-contents)
+  ## [Usage]
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
 
-  ## [Contributing](#table-of-contents)
+  ## [Contributing]
   ${renderContributingSection(data.confirmContributers, data.contribute)}
 
-  ## [Tests](#table-of-contents)
+  ## [Tests]
   ${data.test}
 
-  ## [Questions](#table-of-contents)
+  ## [Questions]
   [GitHub](https://github.com/${data.githubUsername})
   [Email: ${data.email}](mailto:${data.email})
 

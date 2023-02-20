@@ -119,7 +119,7 @@ const questions = [
     {
         type: 'confirm',
         name: 'contribute',
-        message: 'Please provide guidelines for contribution.',
+        message: 'N/A',
         when: ({ confirmContributers }) => {
             if (confirmContributers) {
                 return true;
@@ -131,7 +131,7 @@ const questions = [
             if (contributerInput) {
                 return true;
             } else {
-                console.log('Please enter contributer guidelines.');
+                console.log('N/A');
                 return false;
             }
         }
@@ -155,7 +155,7 @@ const questions = [
 // TODO: Create a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('', fileContent, err => {
+        fs.writeFile('generated.readme.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
